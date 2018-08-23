@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- meta -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Folio - Personal Portfolio Template</title>
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="lib/hover/hover.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Responsive css -->
+  <link href="css/responsive.css" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.png">
+
+  <!-- =======================================================
+    Theme Name: Folio
+    Theme URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
+  <style>
+.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+	width:100%;
+	background:#eee;
+	height:35px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+width:110px;
+	font-weight:bold;
+	font-size:13px;
+	color:#ffffff;
+	background:#6adcfa;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#ffffff;
+	color:rgba(0, 0, 0, 0.4);
+}
+  </style>
+</head>
+
+<body>
+
+  <!-- start section navbar -->
+  <nav id="main-nav">
+    <div class="row">
+      <div class="container">
+
+        <div class="logo">
+          <a href="#"><img src="images/me.jpg" alt="salitha" style="height: 50px; width: 50px;"> Salitha Chathuranga</a>
+        </div>
+
+        <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
+
+        <ul class="nav-menu list-unstyled">
+          <li><a href="#header" class="smoothScroll">Home</a></li>
+          <li><a href="#about" class="smoothScroll">About</a></li>
+          <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
+          <li><a href="#journal" class="smoothScroll">Blog</a></li>
+          <li><a href="#contact" class="smoothScroll">Contact</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!-- End section navbar -->
+
+
+  <!-- start section header -->
+  <div id="header" class="home">
+
+    <div class="container">
+      <div class="header-content">
+        <h1 style="float: right; font-size: 50px;">I'm <span class="typed"></span></h1>
+        <p style="font-size: 15px;">Undergraduate | Tech Enthusiast | Web Developer | Blogger | UI Designer</p>
+		<a href="#about" class="btn btn-default smoothScroll" style="width: 100px; border-radius: 8px; opacity: 0.6">MORE</a><hr>
+        <ul class="list-unstyled list-social">
+          <li><a href="https://www.facebook.com/saliya.genious"><i class="ion-social-facebook" style="font-size: 40px;"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/salitha-chathuranga-1a758b117/"><i class="ion-social-linkedin" style="font-size: 40px;"></i></a></li>
+          <li><a href="https://www.instagram.com/salitha94/"><i class="ion-social-instagram" style="font-size: 40px;"></i></a></li>
+          <li><a href="https://github.com/SalithaUCSC"><i class="ion-social-github" style="font-size: 40px;"></i></a></li>          
+          <li><a href="https://plus.google.com/u/0/+SalithaChathuranga"><i class="ion-social-googleplus" style="font-size: 40px;"></i></a></li>
+        </ul>
+		<hr>
+		<p>BLOG : <a href="https://salitha94.blogspot.com/" style="color: whitesmoke;">https://salitha94.blogspot.com</a></p>
+      </div>
+    </div>
+  </div>
+  <!-- End section header -->
+
+
+  <!-- start section about us -->
+  <div id="about" class="paddsection">
+    <div class="container">
+      <div class="row justify-content-between">
+
+        <div class="col-lg-4 ">
+          <div class="div-img-bg">
+            <div class="about-img">
+              <img src="images/meside.png" class="img-responsive" alt="me">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="about-descr">
+
+            <p class="p-heading">I'm a 3rd year Undergraduate following Bsc(Hons) in Information Systems at University of Colombo School of Computing. </p>
+            <p class="separator" style="text-align: justify; color: #242526">
+              I like to explore new things , try new technologies and spend time with friends when I have a leisure time. Simply I can introduce me as a Tech Enthuastic guy! And also I'm a good team player and a leader. My passion is with WEB DEVELOPMENT. 
+              I have tried several Web related technologies to improve my passion.
+            </p>
+            <br><br>
+            <a href="files/SalithaChathuranga.pdf" class="btn btn-default" style="border-radius: 4px; opacity: 0.8; font-weight: bold; background-color: #121315">DOWNLOAD RESUME</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end section about us -->
+
+
+  <!-- start section services -->
+  <div id="services">
+    <div class="container">
+        <div class="section-title text-center">
+            <h2>TECHNICAL EXPOSURE</h2>
+          </div>
+
+        <div class="skillbar clearfix " data-percent="90%">
+            <div class="skillbar-title" style="background: #d35400;"><span>HTML5</span></div>
+            <div class="skillbar-bar" style="background: #e67e22;"></div>
+            <div class="skill-bar-percent">90%</div>
+          </div> <!-- End Skill Bar -->
+
+          <div class="skillbar clearfix " data-percent="90%">
+              <div class="skillbar-title" style="background: #A20A15;"><span>Bootstrap</span></div>
+              <div class="skillbar-bar" style="background: #BD2D37;"></div>
+              <div class="skill-bar-percent">90%</div>
+          </div> <!-- End Skill Bar -->
+
+          <div class="skillbar clearfix " data-percent="80%">
+            <div class="skillbar-title" style="background: #2980b9;"><span>CSS3</span></div>
+            <div class="skillbar-bar" style="background: #3498db;"></div>
+            <div class="skill-bar-percent">80%</div>
+          </div> <!-- End Skill Bar -->
+
+          <div class="skillbar clearfix " data-percent="70%">
+              <div class="skillbar-title" style="background: #333333;"><span>Laravel</span></div>
+              <div class="skillbar-bar" style="background: #525252;"></div>
+              <div class="skill-bar-percent">70%</div>
+          </div> <!-- End Skill Bar -->
+
+          <div class="skillbar clearfix " data-percent="40%">
+              <div class="skillbar-title" style="background: #2F4088;"><span>Angular</span></div>
+              <div class="skillbar-bar" style="background: #5a68a5;"></div>
+              <div class="skill-bar-percent">40%</div>
+          </div> <!-- End Skill Bar -->
+
+          <div class="skillbar clearfix " data-percent="50%">
+            <div class="skillbar-title" style="background: #2c3e50;"><span>jQuery</span></div>
+            <div class="skillbar-bar" style="background: #2c3e50;"></div>
+            <div class="skill-bar-percent">50%</div>
+          </div> <!-- End Skill Bar -->
+          
+          <div class="skillbar clearfix " data-percent="30%">
+            <div class="skillbar-title" style="background: #27ae60;"><span>ExpressJS</span></div>
+            <div class="skillbar-bar" style="background: #2ecc71;"></div>
+            <div class="skill-bar-percent">30%</div>
+          </div> <!-- End Skill Bar -->
+          
+          <div class="skillbar clearfix " data-percent="40%">
+            <div class="skillbar-title" style="background: #124e8c;"><span>Java</span></div>
+            <div class="skillbar-bar" style="background: #4288d0;"></div>
+            <div class="skill-bar-percent">40%</div>
+          </div> <!-- End Skill Bar -->
+
+          <div class="skillbar clearfix " data-percent="50%">
+              <div class="skillbar-title" style="background: #1F8281;"><span>MongoDB</span></div>
+              <div class="skillbar-bar" style="background: #45A5A5;"></div>
+              <div class="skill-bar-percent">50%</div>
+          </div> <!-- End Skill Bar -->      
+    </div>
+    <br><hr><br>
+    <div class="section-title text-center">
+        <h2>EDUCATION</h2>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 section-title text-center"> <h5>Higher Education</h5>
+            <p style="font-size: 18px;">University of Colombo School of Computing
+                Bsc(Hons) in Information Systems | 2016 to present <br>
+              <b>GPA : 3.23</b> 
+            </p>
+            </div>
+            <div class="col-md-6 section-title text-center"> <h5>Extra Education</h5>
+              <p style="font-size: 18px;">Institute of Java and Software Engineering , Panadura
+                  Comprehensive Master Java Developer <br> 2017 - 2018 <br>
+              </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 section-title text-center"> <h5>Secondary Education</h5>
+              <p style="font-size: 18px;">D.S.Senanayake College, Colombo 8<br> 2005 - 2013 <br>
+                <b>A/L Results : Z-Score - 1.46</b>
+              </p>
+            </div>
+            <div class="col-md-6 section-title text-center"> <h5>Extra Education</h5>
+              <p style="font-size: 18px;">Aquinas University College, Colombo 10 <br> 
+                Higher English Diploma | 2015 - 2016 <br>
+              </p>
+            </div>
+        </div>
+    </div>
+
+  </div>
+  <!-- end section services -->
+
+
+  <!-- start section portfolio -->
+  <div id="portfolio" class="text-center paddsection">
+    <div class="container">
+      <div class="section-title text-center">
+          <h2>PROJECTS</h2>
+      </div>
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12">
+                  <div class="portfolio-list">
+                      <div class="portfolio-container" style="font-size: 16px; line-height: 30px; text-align: justify;">
+                          <div class="col-lg-4 col-md-6 portfolio-thumbnail">
+                            <h4 style="text-align: center;font-size: 16px;">STUDENTMATE</h4><br>
+                              Online web portal for the students of University of Colombo. 
+                              Used technologies : Codeigniter, HTML5, CSS3 - Bootstrap, jQuey, Ajax, MYSQL <br><br>
+                              <b>2nd Year Group Project | 2017</b>
+                          </div>
+                          <div class="col-lg-4 col-md-6 portfolio-thumbnail">
+                              <h4 style="text-align: center;font-size: 16px;">MOBILE4U</h4><br>
+                              Web site to see phone specifications, compare, rate and review phones. 
+                              Used technologies : Laravel, HTML5, CSS3 - Bootstrap , jQuery, Ajax, MYSQL <br> <br>
+                              <b>Advanced Web Development Group Project | 2018</b>
+                          </div>
+                          <div class="col-lg-4 col-md-6 portfolio-thumbnail">
+                              <h4 style="text-align: center;font-size: 16px;">CORD LANKA</h4><br>
+                              Web site developed for company CORD LANKA   <br>
+                              <b>Used technologies : Codeigniter, HTML5, CSS3 - Bootstrap, jQuey, Ajax, MYSQL <br><br> Link : <a href="http://cordlanka.lk">http://cordlanka.lk</a>  </b>
+                            </div>
+                      </div>
+
+                  </div>
+
+              </div>
+            </div>
+      </div>
+      <hr><br>
+      <div class="section-title text-center">
+          <h2>BLOGGING EXPERIENCE</h2>
+      </div>
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12">
+                  <div class="portfolio-list">
+                      <div class="portfolio-container">
+                          <div class="col-lg-6 col-md-6 portfolio-thumbnail all branding uikits webdesign">   
+                              <img src="images/blog/ggslk.png" alt="ggslk"><br>
+                              <h5>Senior Contributor</h5> <br>
+                              2016 ro present <br><br>
+                              <a href="https://ggslk.com/authors">https://ggslk.com/authors</a> 
+                          </div>
+                          <div class="col-lg-6 col-md-6 portfolio-thumbnail all branding uikits webdesign">
+                              <img src="images/blog/windowsgeek.png" alt="windowsgeek" style="width: 140px; height: 140px;">
+                              <br><br><br><h5>Technical Writer</h5><br>
+                              2016 ro present <br><br>
+                              <a href="http://windowsgeek.lk/author/salitha/">http://windowsgeek.lk/author/salitha/</a>                                                        
+                          </div>
+                      </div>
+
+                  </div>
+
+              </div>
+            </div>
+      </div>
+      <hr><br>
+      <div class="section-title text-center">
+          <h2>UI WORK</h2>
+      </div>
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12">
+                  <div class="portfolio-list">
+                      <div class="portfolio-container">
+                          <div class="col-lg-4 col-md-6 portfolio-thumbnail">
+                              <a class="popup-img" href="images/ui/checkout.jpg">
+                                <img src="images/ui/checkout.jpg" alt="img">
+                              </a>
+                          </div>
+                          <div class="col-lg-4 col-md-6 portfolio-thumbnail">
+                              <a class="popup-img" href="images/ui/landing.JPG">
+                                <img src="images/ui/landing.JPG" alt="img">
+                              </a>
+                          </div>
+                          <div class="col-lg-4 col-md-6 portfolio-thumbnail">
+                              <a class="popup-img" href="images/ui/signup.png">
+                                <img style="height: 220px;" src="images/ui/signup.png" alt="img">
+                              </a>
+                          </div>
+                          <div class="col-lg-4 col-md-6 portfolio-thumbnail">
+                              <a class="popup-img" href="images/ui/studentmate1.png">
+                                <img src="images/ui/studentmate1.png" alt="img">
+                              </a>
+                          </div>
+                          <div class="col-lg-4 col-md-6 portfolio-thumbnail">
+                              <a class="popup-img" href="images/ui/form.png">
+                                <img src="images/ui/form.png" alt="img">
+                              </a>
+                          </div>
+                          <div class="col-lg-4 col-md-6 portfolio-thumbnail">
+                              <a class="popup-img" href="images/ui/studentmate2.png">
+                                <img src="images/ui/studentmate2.png" alt="img">
+                              </a>
+                          </div>
+                      </div>
+
+                  </div>
+
+              </div>
+            </div>
+      </div>
+      <hr><br>
+      <div class="section-title text-center">
+        <h2>UNIVERSITY EXPERIENCE</h2>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="portfolio-list">
+
+            <!-- <ul class="nav list-unstyled" id="portfolio-flters"> -->
+              <!-- <li class="filter filter-active" data-filter=".all">all</li> -->
+              <!-- <li class="filter" data-filter=".uidesign">UI DESIGN</li>
+              <li class="filter" data-filter=".mockups">UNIVERSITY</li> -->
+              <!-- <li class="filter" data-filter=".uikits">ui kits</li>
+              <li class="filter" data-filter=".webdesign">web design</li>
+              <li class="filter" data-filter=".photography">photography</li>
+            </ul> -->
+
+          <!-- </div> -->
+
+          <div class="portfolio-container">
+            
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uikits webdesign">
+              <a class="popup-img" href="images/gallery/1.jpg">
+                <img src="images/gallery/1.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits photography">
+              <a class="popup-img" href="images/gallery/2.jpg">
+                <img src="images/gallery/2.jpg"  alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding webdesign photographyn">
+              <a class="popup-img" href="images/gallery/3.jpg">
+                <img src="images/gallery/3.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups webdesign photography">
+              <a class="popup-img" href="images/gallery/4.jpg">
+                <img src="images/gallery/4.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uikits photography">
+              <a class="popup-img" href="images/gallery/11.jpg">
+                <img src="images/gallery/11.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits webdesign">
+              <a class="popup-img" href="images/gallery/5.jpg">
+                <img src="images/gallery/5.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits webdesign">
+                <a class="popup-img" href="images/gallery/10.jpg">
+                  <img src="images/gallery/10.jpg" alt="img">
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits webdesign">
+                <a class="popup-img" href="images/gallery/14.JPG">
+                  <img src="images/gallery/14.JPG" alt="img">
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits webdesign">
+                <a class="popup-img" href="images/gallery/13.jpg">
+                  <img src="images/gallery/13.jpg" alt="img">
+                </a>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits webdesign">
+              <a class="popup-img" href="images/gallery/19.jpg">
+                <img src="images/gallery/19.jpg" alt="img">
+              </a>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits webdesign">
+              <a class="popup-img" href="images/gallery/7.jpg">
+                <img src="images/gallery/7.jpg" alt="img">
+              </a>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits webdesign">
+              <a class="popup-img" href="images/gallery/18.jpg">
+                <img src="images/gallery/18.jpg" alt="img">
+              </a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- End section portfolio -->
+
+
+  <!-- start section journal -->
+  <div id="journal" class="text-left paddsection">
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>BLOG</h2>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="journal-block">
+        <div class="row">
+
+          <div class="col-lg-6 col-md-6">
+            <div class="journal-info">
+
+              <a href="blog-single.html"><img src="images/blog/techpoolLogo.png" class="img-responsive" alt="img"></a>
+
+              <div class="journal-txt">
+
+                <!-- <h4><a href="blog-single.html">SO LETS MAKE THE MOST IS BEAUTIFUL</a></h4>
+                <p class="separator">To an English person, it will seem like simplified English
+                </p> -->
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6">
+            <div class="journal-info">
+
+              <!-- <a href="blog-single.html"><img src="images/blog-post-2.jpg" class="img-responsive" alt="img"></a> -->
+
+              <div class="journal-txt">
+
+                <h4><a href="https://www.facebook.com/techpool94/">TECHPOOL FB PAGE</a></h4>
+                <p class="separator">TechPool is my personal Tech Blog which brings practical aspects of the 
+                  latest technological trends to the public.
+                  <br><br>
+                  <b>Categories:</b> 
+                  <br><br>
+                  Laravel : <a href="https://salitha94.blogspot.com/search/label/Laravel">https://salitha94.blogspot.com/search/label/Laravel</a><br><br>
+                  Angular : <a href="https://salitha94.blogspot.com/search/label/Angular">https://salitha94.blogspot.com/search/label/Angular</a><br><br>
+                  <!-- Express : <a href="https://salitha94.blogspot.com/search/label/Express">https://salitha94.blogspot.com/search/label/Express</a><br><br> -->
+                  Bootstrap : <a href="https://salitha94.blogspot.com/search/label/Bootstrap">https://salitha94.blogspot.com/search/label/Bootstrap</a><br><br>
+                  MongoDB : <a href="https://salitha94.blogspot.com/search/label/MongoDB">https://salitha94.blogspot.com/search/label/MongoDB</a>
+                </p>
+                <!-- <a href="https://www.facebook.com/techpool94/"><i class="ion-social-facebook"></i>TechPool</a> -->
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- End section journal -->
+
+
+  <!-- start sectoion contact -->
+  <div id="contact" class="paddsection">
+    <div class="container">
+      <div class="contact-block1">
+          <h2 class="text-center">GET IN TOUCH</h2>
+        <div class="row">
+          <div class="col-lg-6">              
+            <br><br>
+                <h5>11/7/2L , 5th lane ,</h5><br>
+                <h5>Warallahena , Horana</h5>
+          </div>
+          <div class="col-lg-6">
+              <br><br>
+              <h5>Email: salithachathuranga94@gmail.com</h5><br>
+              <h5>+94 778787607</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- start sectoion contact -->
+
+
+  <!-- start section footer -->
+  <div id="footer" class="text-center">
+    <div class="container">
+      <div class="socials-media text-center">
+
+        <ul class="list-unstyled">
+          <li><a href="https://www.facebook.com/saliya.genious"><i class="ion-social-facebook"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/salitha-chathuranga-1a758b117/"><i class="ion-social-linkedin"></i></a></li>
+          <li><a href="https://www.instagram.com/salitha94/"><i class="ion-social-instagram"></i></a></li>
+          <li><a href="https://github.com/SalithaUCSC"><i class="ion-social-github"></i></a></li>
+          <li><a href="https://plus.google.com/u/0/+SalithaChathuranga"><i class="ion-social-googleplus"></i></a></li>
+        </ul>
+
+      </div>
+
+      <p>&copy; Copyrights Folio. All rights reserved.</p>
+
+      <div class="credits">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Folio
+        -->
+        Designed by <a href="#">Salitha Chathuranga</a>
+      </div>
+
+    </div>
+  </div>
+  <!-- End section footer -->
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/typed/typed.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+  <script>
+      jQuery(document).ready(function(){
+      jQuery('.skillbar').each(function(){
+        jQuery(this).find('.skillbar-bar').animate({
+          width:jQuery(this).attr('data-percent')
+        },6000);
+      });
+    });
+  </script>
+</body>
+
+</html>
