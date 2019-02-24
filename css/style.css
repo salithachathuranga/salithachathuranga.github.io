@@ -2719,7 +2719,7 @@ body {
     overflow-Y: visible;
   }
 
-  .single-info p, h3 {
+  .single-info p, .single-info h3 {
       text-align: center !important;
   }
   .single-info img {
