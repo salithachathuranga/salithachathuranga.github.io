@@ -2431,6 +2431,36 @@ body {
 
 /* 12 Footer
 *********************************************/
+.findme-links {
+  font-size: 30px !important;
+  margin-right: 10px;
+}
+
+.findme-links .fa-facebook {
+  color: #C7C7C7;
+}
+.findme-links .fa-facebook:hover {
+  color: #365899;
+}
+.findme-links .fa-instagram {
+  color: #C7C7C7;
+}
+.findme-links .fa-instagram:hover {
+  color: #BB0B0B;
+}
+.findme-links .fa-github {
+  color: #C7C7C7;
+}
+.findme-links .fa-github:hover {
+  color: #28a745;
+}
+.findme-links .fa-linkedin {
+  color: #C7C7C7;
+}
+.findme-links .fa-linkedin:hover {
+  color: #0073b1;
+}
+
 .apps-footer {
   text-align: center;
   color: #9ba0a2;
@@ -2861,7 +2891,7 @@ body {
   .my-information .kayo-info-detail p {
     line-height: 22px;
     letter-spacing: 0.4px;
-    font-size: 13px;
+    font-size: 13px !important;
     margin-bottom: 0;
   }
   .my-information .my-image img {
