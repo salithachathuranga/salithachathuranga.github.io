@@ -2460,6 +2460,12 @@ body {
 .findme-links .fa-linkedin:hover {
   color: #0073b1;
 }
+.findme-links .fa-blogger {
+  color: #C7C7C7;
+}
+.findme-links .fa-blogger:hover {
+  color: #ff7043;
+}
 
 .apps-footer {
   text-align: center;
